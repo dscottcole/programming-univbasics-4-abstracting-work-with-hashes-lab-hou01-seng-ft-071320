@@ -1,7 +1,8 @@
 def my_hash_creator(name, value)
   # return a hash that includes the key and value parameters passed into this method
-    hash = Hash.new
-    hash[:key] = value
+    hash = {
+      :name => value
+    }
   hash
 end
 
